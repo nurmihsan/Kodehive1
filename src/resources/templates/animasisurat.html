@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Animasi Surat</title>
+	<style>
+	
+	.warna {
+		color: red;
+	}
+	.paddingclass {
+		padding: 20px;
+		text-align: center
+	}
+	.center {
+		margin-left: auto;
+		margin-right: auto;
+	}
+	.border	{
+		padding: 20px 20px 50px 20px;
+		margin-top: 50px;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-style: solid;
+		border-color: #7F5283;
+		border-radius: 20px;
+	}
+	.satu {
+		width: 0px;
+		border-left: 100px solid red;
+		border-right: 100px solid red;
+		border-bottom: 100px solid orange;
+		border-top: 0px solid blue;
+		display: none;
+	}
+	
+	.dua {
+		width: 0px;
+		border-left: 100px solid limegreen;
+		border-right: 100px solid limegreen;
+		border-bottom: 0px solid yellow;
+		border-top: 100px solid green;
+		display: none;
+	}
+	
+	.tiga {
+		width: 0px;
+		border-left: 100px solid dodgerblue;
+		border-right: 100px solid dodgerblue;
+		border-bottom: 0px solid yellow;
+		border-top: 100px solid blue;
+		display: none;
+	}
+	</style>
+	<script type="text/javascript"src="../jquery-3.6.0.min.js"></script>
+</head>
+<body>
+	<div class="border">
+
+	<table class="center" style="text-align: center;">
+	<tr>
+		<td><button id="handle" style="margin-bottom:20px;">Animasi Surat</button></td>
+	</tr>
+	<tr>
+		<td><div id="box1" class="satu"></div></td>
+	</tr>
+	<tr>
+		<td><div id="box2" class="dua"></div></td>
+	</tr>
+	<tr>
+		<td><div id="box3" class="tiga"></div></td>
+	</tr>
+	</table>
+</div>
+
+<script type="text/javascript">
+	$('#handle').click(function(){
+		$('#box1').fadeToggle(500);
+		$('#box2').fadeToggle(1000);
+		$('#box3').fadeToggle(1500);
+	})
+</script>
+	
+</body>
+</html>
