@@ -1,12 +1,4 @@
 <<<<<<< HEAD
-# kodehive
-Kumpulan projek bootcamp Java Spring
-
-## QuizModel Nomor 2
-
-
-## Quiz Update Database
-
 
 
 Menampilkan semua data
