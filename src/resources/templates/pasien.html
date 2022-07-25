@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Data Pasien</title>
+</head>
+<body>
+	<form onclick="fungsi()	">
+	<table>
+		<tr>
+			<td>Nomor Pasien</td>
+			<td><input type="number" name="nopas" id="nopas" onchange="fungsi()"></td>
+		</tr>
+		<tr>	
+			<td>Nama Pasien</td>
+			<td><input type="text" name="napas" id="napas" onchange="fungsi()"></td>
+		</tr>
+		<tr>
+		<td>Gender Pasien</td>
+		<td>
+    		<input id="lk" type="radio" name="jenis_kelamin">
+    		<label for="lk">Pria</label>
+    		<input id="pr" type="radio" name="jenis_kelamin">
+    		<label for="pr">Wanita</label>
+    		</td>
+  		</tr>
+		<tr>
+			<td>Kategori Pasien</td>
+			<td>
+				<select name="kategoripasien" id="kategoripasien" onchange="fungsi()">
+					<option value="pilih1">BPJS</option>
+					<option value="pilih2">Asuransi Pribadi</option>
+				</select>
+			</td>
+				<td><a id="kategoripasien" style="color: black;"></a></td>
+		</tr>
+		<tr>
+		<td>Biaya Pasien</td>
+		<td><input type="text" name="bipas" id="bipas" onchange="fungsi()"></td>
+		</tr>
+		<tr>
+			<td>
+			 <label for="tgllahir">Tanggal Lahir</label>
+  				<input type="date" id="tgllahir" name="tgllahir">
+  				</td>
+		</tr>
+		<tr>
+		<td>
+		<input type="Submit">
+		<input type="Reset">
+		</td>
+		</tr> 
+	</table>
+	</form>
+</body>
+</html>

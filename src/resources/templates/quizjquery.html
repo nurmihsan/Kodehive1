@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Quiz jquery</title>
+	<style>
+	.warna {
+		color:red;
+	}
+	.paddingclass {
+		padding:20px;
+		text-align:center
+	}
+	.center {
+		margin-left: auto;
+		margin-right:auto;
+	}
+	.border{
+		padding: 20px 20px 50px 20;
+		margin-left: 100px;
+		margin-right: 100px;
+		border-radius: 20px;
+	}
+	</style>
+	<script type="text/javascript"src="../jquery-3.6.0.min.js"></script>	
+</head>
+
+<body>
+	<div class="border">
+	<p id="target" class='paddingclass'>target paragraph</p>
+	<table class="center">
+	<tr>
+		<td><button id="beriwarna">beri warna</button></td>
+		<td><button id="hapuswarna">hapus warna warna</button></td>
+		</tr>
+	</table>
+	</div>
+	
+	<script type="text/javascript">
+		$('#beriwarna').click(function(){
+			$('#target').addClass('warna')
+		})
+		$('#hapuswarna').click(function(){
+			$('#target').removeClass('warna')
+		})
+	</script>
+</body>
+</html>
