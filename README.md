@@ -1,6 +1,9 @@
 <<<<<<< HEAD
 
+ERD Mini Project
+![erdproject](https://user-images.githubusercontent.com/49230212/180749781-efb5b356-9e7e-43bb-b7e3-999bedfe3ac5.PNG)
 
+Quiz Spring boot model nomor 2
 Menampilkan semua data
 ![1](https://user-images.githubusercontent.com/49230212/179694705-de0b623b-9996-45a9-93e8-b1044ed477cc.PNG)
 1. Menampilkan Skripsi yang tahun pembuatannya tidak lebih tahun 2020
