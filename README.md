@@ -1,7 +1,8 @@
 <<<<<<< HEAD
 
 ERD Mini Project
-![erdproject](https://user-images.githubusercontent.com/49230212/180749781-efb5b356-9e7e-43bb-b7e3-999bedfe3ac5.PNG)
+![erdproject](https://user-images.githubusercontent.com/49230212/180913490-2e427973-b8d3-494d-b2f1-b26442aa2895.PNG)
+
 
 Quiz Spring boot model nomor 2
 Menampilkan semua data
